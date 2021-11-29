@@ -1,0 +1,366 @@
+SD_station_code_All;STATN;HELCOM_subbasin;CNTRY;CLUSTER
+2122;OMTF0018;Bay of Mecklenburg;Germany;DE_BoM-1
+2189;OM714;Bay of Mecklenburg;Germany;DE_BoM-2
+2334;OMMVZBG18;Bay of Mecklenburg;Germany;DE_BoM-3
+2539;OMMVZBG05;Bay of Mecklenburg;Germany;DE_BoM-4
+2584;OMMB3;Bay of Mecklenburg;Germany;DE_BoM-5
+2587;OMMVZBA20;Bay of Mecklenburg;Germany;DE_BoM-6
+2590;OMMVZBB22;Bay of Mecklenburg;Germany;DE_BoM-7
+2591;OMMVZBC20;Bay of Mecklenburg;Germany;DE_BoM-8
+2592;OMMVZBG26;Bay of Mecklenburg;Germany;DE_BoM-9
+2598;OMMVZBA15;Bay of Mecklenburg;Germany;DE_BoM-10
+2630;OMMB4;Bay of Mecklenburg;Germany;DE_BoM-11
+2709;OMMB6;Bay of Mecklenburg;Germany;DE_BoM-12
+2730;OMMB7;Bay of Mecklenburg;Germany;DE_BoM-13
+2765;OMBMPM2;Bay of Mecklenburg;Germany;DE_BoM-14
+GER1;OMMB2;Bay of Mecklenburg;Germany;DE_BoM-15
+GER2;OMMB8;Bay of Mecklenburg;Germany;DE_BoM-16
+1033;RR3;Bothnian Bay;Finland;BB-FIN1
+1035;RR6;Bothnian Bay;Finland;BB-FIN2
+1038;BO3;Bothnian Bay;Finland;BB-FIN3
+1091;CVI;Bothnian Bay;Finland;BB-FIN4
+1108;CV;Bothnian Bay;Finland;BB-FIN5
+1110;F9;Bothnian Bay;Finland;BB-FIN6
+5744;F9 / A13;Bothnian Bay;Sweden;NAT5
+5748;FK 1;Bothnian Bay;Sweden;NAT7
+5749;FK2;Bothnian Bay;Sweden;NAT7
+5788;H 1;Bothnian Bay;Sweden;NAT7
+5789;H 14;Bothnian Bay;Sweden;NAT5
+5790;H 2;Bothnian Bay;Sweden;NAT7
+5817;JS 5-26;Bothnian Bay;Sweden;NAT7
+5913;N 5-1;Bothnian Bay;Sweden;NAT5
+5914;N 5-2;Bothnian Bay;Sweden;NAT5
+5915;N 5-3;Bothnian Bay;Sweden;NAT5
+5916;N 5-4;Bothnian Bay;Sweden;NAT5
+5928;N 7-1;Bothnian Bay;Sweden;NAT7
+5929;N 7-2;Bothnian Bay;Sweden;NAT7
+5930;N 7-3;Bothnian Bay;Sweden;NAT7
+5931;N 7-4;Bothnian Bay;Sweden;NAT7
+5932;N 7-5;Bothnian Bay;Sweden;NAT7
+6005;R 8-10;Bothnian Bay;Sweden;c
+6006;R 8-11;Bothnian Bay;Sweden;c
+6007;R 8-4;Bothnian Bay;Sweden;c
+6008;R 8-5;Bothnian Bay;Sweden;c
+6009;R 8-6;Bothnian Bay;Sweden;c
+6010;R 8-7;Bothnian Bay;Sweden;c
+6011;R 8-8;Bothnian Bay;Sweden;c
+6012;R 8-9;Bothnian Bay;Sweden;c
+6018;RF 1;Bothnian Bay;Sweden;c
+6019;RF 2;Bothnian Bay;Sweden;c
+6231;B 3;Bothnian Bay;Sweden;NAT5
+6232;B 4;Bothnian Bay;Sweden;NAT5
+6233;B 5;Bothnian Bay;Sweden;NAT5
+6235;B1-BOTTENVIKEN;Bothnian Bay;Sweden;NAT5
+1047;US3;Bothnian Sea;Finland;BS_FIN1
+1050;US6B;Bothnian Sea;Finland;BS_FIN2
+1051;US5B;Bothnian Sea;Finland;BS_FIN3
+1054;MS6;Bothnian Sea;Finland;BS_FIN4
+1058;SR3;Bothnian Sea;Finland;BS_FIN5
+1059;SR7;Bothnian Sea;Finland;BS_FIN6
+1060;SR5;Bothnian Sea;Finland;BS_FIN7
+1092;F26;Bothnian Sea;Finland;BS_FIN8
+1136;MS3;Bothnian Sea;Finland;BS_FIN9
+1138;MS9;Bothnian Sea;Finland;BS_FIN10
+11067;PORIKU4;Bothnian Sea;Finland;BS_FIN11
+5791;H 50;Bothnian Sea;Sweden;NAT2
+5816;JS 4-6;Bothnian Sea;Sweden;NAT4
+5868;N 18;Bothnian Sea;Sweden;NAT1_BS
+5873;N 2-1;Bothnian Sea;Sweden;NAT2
+5875;N 2-2;Bothnian Sea;Sweden;NAT2
+5876;N 23;Bothnian Sea;Sweden;NAT1_BS
+5877;N 2-3;Bothnian Sea;Sweden;NAT2
+5879;N 2-4;Bothnian Sea;Sweden;NAT2
+5880;N 25;Bothnian Sea;Sweden;NAT1_BS
+5881;N 2-5;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5883;N 2-6;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5885;N 2-7;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5886;N 2-8;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5887;N 2A-1;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5888;N 2A-2;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5889;N 2A-3;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5890;N 2A-4;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5891;N 2A-5;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5892;N 2A-6;Bothnian Sea;Sweden;NAT_Soderhamn_yttre
+5895;N 3-2;Bothnian Sea;Sweden;N_Hornslandet
+5896;N 3-3;Bothnian Sea;Sweden;N_Hornslandet
+5897;N 3-4;Bothnian Sea;Sweden;N_Hornslandet
+5898;N 3-5;Bothnian Sea;Sweden;N_Hornslandet
+5900;N 3-7;Bothnian Sea;Sweden;N_Hornslandet
+5903;N 4-1;Bothnian Sea;Sweden;NAT4
+5904;N 4-2;Bothnian Sea;Sweden;NAT4
+5905;N 4-3;Bothnian Sea;Sweden;NAT4
+5906;N 4-4;Bothnian Sea;Sweden;NAT4
+5907;N 4-5;Bothnian Sea;Sweden;NAT4
+5908;N 4-6;Bothnian Sea;Sweden;NAT4
+5909;N 4-7;Bothnian Sea;Sweden;NAT4
+5910;N 4-8;Bothnian Sea;Sweden;NAT4
+5911;N 4-9;Bothnian Sea;Sweden;NAT4
+5991;R 1-11;Bothnian Sea;Sweden;c
+5992;R 1-12;Bothnian Sea;Sweden;c
+5995;R 1-16;Bothnian Sea;Sweden;c
+6000;R 3-1;Bothnian Sea;Sweden;c
+6001;R 3-11;Bothnian Sea;Sweden;c
+6002;R 3-16;Bothnian Sea;Sweden;c
+6003;R 3-5;Bothnian Sea;Sweden;c
+6004;R 3-6;Bothnian Sea;Sweden;c
+6024;S 144B;Bothnian Sea;Sweden;NAT1s
+6025;S 145B;Bothnian Sea;Sweden;NAT1s
+6087;SR1A;Bothnian Sea;Sweden;NAT2
+6167;13;Bothnian Sea;Sweden;NAT1s
+6176;18;Bothnian Sea;Sweden;NAT1s
+6287;C 1;Bothnian Sea;Sweden;NAT1s
+6288;C 2;Bothnian Sea;Sweden;NAT1s
+6289;C 4;Bothnian Sea;Sweden;NAT1s
+6291;C 5;Bothnian Sea;Sweden;NAT1s
+6292;C 6;Bothnian Sea;Sweden;NAT1s
+6295;C3_South;Bothnian Sea;Sweden;NAT1s
+11338;N 2B-2;Bothnian Sea;Sweden;NAT2
+11339;N 2B-3;Bothnian Sea;Sweden;NAT2
+11340;N 2B-4;Bothnian Sea;Sweden;NAT2
+11376;N 2B-1;Bothnian Sea;Sweden;NAT2
+871;32;Eastern Gotland Basin;Estonia;d
+872;34A;Eastern Gotland Basin;Estonia;EGB_EE1
+11564;AT31;Eastern Gotland Basin;Estonia;EGB_EE2
+11565;AT32;Eastern Gotland Basin;Estonia;d
+11566;AT33;Eastern Gotland Basin;Estonia;d
+11567;AT34;Eastern Gotland Basin;Estonia;d
+11568;AT35;Eastern Gotland Basin;Estonia;d
+11569;AT36;Eastern Gotland Basin;Estonia;d
+1083;F80;Eastern Gotland Basin;Finland;d
+1084;BY15;Eastern Gotland Basin;Finland;d
+1112;HA2;Eastern Gotland Basin;Finland;d
+1119;HA9;Eastern Gotland Basin;Finland;d
+1129;IBSV10;Eastern Gotland Basin;Finland;d
+1131;LF1;Eastern Gotland Basin;Finland;d
+11179;BY10;Eastern Gotland Basin;Finland;d
+4559;J56;Eastern Gotland Basin;Lithuania;EGB_LT3
+4560;2;Eastern Gotland Basin;Lithuania;EGB_LT4
+4563;BMPJ2;Eastern Gotland Basin;Lithuania;EGB_LT5
+4566;K18;Eastern Gotland Basin;Lithuania;EGB_LT6
+4575;20A;Eastern Gotland Basin;Lithuania;EGB_LT7
+4576;20;Eastern Gotland Basin;Lithuania;EGB_LT8
+11239;N-6;Eastern Gotland Basin;Lithuania;EGB_LT9
+11240;B-4;Eastern Gotland Basin;Lithuania;EGB_LT10
+11241;64A2;Eastern Gotland Basin;Lithuania;EGB_LT11
+13238;S-3;Eastern Gotland Basin;Lithuania;EGB_LT12
+LITH1;1;Eastern Gotland Basin;Lithuania;EGB_LT13
+LITH1;2;Eastern Gotland Basin;Lithuania;EGB_LT13
+5262;BMPK1;Eastern Gotland Basin;Poland;d
+5264;BMPK11;Eastern Gotland Basin;Poland;EGB_PL17
+5269;BMPK43;Eastern Gotland Basin;Poland;d
+5271;BMPK51;Eastern Gotland Basin;Poland;EGB_PL18
+5766;GO 13;Eastern Gotland Basin;Sweden;NAT_När
+5767;GO 14;Eastern Gotland Basin;Sweden;NAT_När
+5770;GO 3;Eastern Gotland Basin;Sweden;NAT_När
+5771;GO 4;Eastern Gotland Basin;Sweden;NAT_När
+6183;3129 ESE NÄR;Eastern Gotland Basin;Sweden;NAT_När
+11295;3125 LAUSVIKEN;Eastern Gotland Basin;Sweden;NAT_När
+11301;GO 5;Eastern Gotland Basin;Sweden;NAT_När
+11302;GO 6;Eastern Gotland Basin;Sweden;NAT_När
+11304;H128;Eastern Gotland Basin;Sweden;NAT_När
+11531;3127 NÄR;Eastern Gotland Basin;Sweden;NAT_När
+842;F1;Gulf of Finland;Estonia;d
+843;F3;Gulf of Finland;Estonia;d
+844;14;Gulf of Finland;Estonia;d
+847;N12;Gulf of Finland;Estonia;GF_EE1
+848;19;Gulf of Finland;Estonia;d
+853;15;Gulf of Finland;Estonia;GF_EE2
+11206;E80;Gulf of Finland;Estonia;d
+11552;AT11;Gulf of Finland;Estonia;GF_EE3
+11553;AT12;Gulf of Finland;Estonia;GF_EE4
+11554;AT13;Gulf of Finland;Estonia;GF_EE5
+11555;AT14;Gulf of Finland;Estonia;d
+11556;AT15;Gulf of Finland;Estonia;d
+11557;AT16;Gulf of Finland;Estonia;d
+11558;AT21;Gulf of Finland;Estonia;GF_EE6
+11559;AT22;Gulf of Finland;Estonia;GF_EE7
+11560;AT23;Gulf of Finland;Estonia;d
+11561;AT24;Gulf of Finland;Estonia;d
+11562;AT25;Gulf of Finland;Estonia;d
+11563;AT26;Gulf of Finland;Estonia;d
+1072;LL3A;Gulf of Finland;Finland;d
+1075;LL7;Gulf of Finland;Finland;d
+1090;AMN;Gulf of Finland;Finland;GF_FIN1
+1093;GF1;Gulf of Finland;Finland;d
+1094;GF2;Gulf of Finland;Finland;d
+1095;JML;Gulf of Finland;Finland;d
+1097;LL11;Gulf of Finland;Finland;d
+1100;LL4A;Gulf of Finland;Finland;GF_FIN2
+1101;LL5;Gulf of Finland;Finland;d
+1102;LL6A;Gulf of Finland;Finland;d
+1103;LL9;Gulf of Finland;Finland;d
+873;107;Gulf of Riga;Estonia;GR_EE1
+874;111;Gulf of Riga;Estonia;GR_EE2
+875;114;Gulf of Riga;Estonia;GR_EE3
+876;G1;Gulf of Riga;Estonia;GR_EE4
+532;DMU 952;Kiel Bay;Denmark;
+2554;OMBMPN1;Kiel Bay;Germany;KK_DE1
+2555;OMBMPN3;Kiel Bay;Germany;KK_DE2
+855;H1;Northern Baltic Proper;Estonia;d
+860;25;Northern Baltic Proper;Estonia;d
+860;25;Northern Baltic Proper;Estonia;d
+863;23;Northern Baltic Proper;Estonia;d
+865;H2;Northern Baltic Proper;Estonia;d
+878;23B;Northern Baltic Proper;Estonia;d
+11229;85;Northern Baltic Proper;Estonia;d
+1079;LL12;Northern Baltic Proper;Finland;d
+1080;LL17;Northern Baltic Proper;Finland;d
+1098;LL13;Northern Baltic Proper;Finland;d
+1099;LL15;Northern Baltic Proper;Finland;d
+11543;BY29;Northern Baltic Proper;Finland;d
+11544;F79;Northern Baltic Proper;Finland;d
+5818;JS2-39;Northern Baltic Proper;Sweden;NAT_SV
+6028;SB 15;Northern Baltic Proper;Sweden;NAT_SV
+6029;SB 16;Northern Baltic Proper;Sweden;NAT_SV
+6031;SB 17b;Northern Baltic Proper;Sweden;NAT_SV
+6032;SB 2;Northern Baltic Proper;Sweden;NAT_SV
+6033;SB 5;Northern Baltic Proper;Sweden;NAT_SV
+6034;SB 6;Northern Baltic Proper;Sweden;NAT_SV
+6036;SB 81;Northern Baltic Proper;Sweden;NAT_SV
+6161;1003 V SVENSKA BJÖRN;Northern Baltic Proper;Sweden;NAT_SV
+6162;1004;Northern Baltic Proper;Sweden;NAT_SV
+1042;F16;The Quark;Finland;Q_FIN1
+1044;F18;The Quark;Finland;Q_FIN2
+11066;F15;The Quark;Finland;Q_FIN3
+5860;N 10;The Quark;Sweden;c
+5861;N 11;The Quark;Sweden;c
+5865;N 15;The Quark;Sweden;NAT1_Q
+5866;N 16;The Quark;Sweden;NAT1_Q
+5867;N 17;The Quark;Sweden;NAT1_Q
+5871;N 20;The Quark;Sweden;NAT1_Q
+5872;N 21;The Quark;Sweden;NAT1_Q
+5874;N 22;The Quark;Sweden;NAT1_Q
+5878;N 24;The Quark;Sweden;NAT1_Q
+5917;N 6;The Quark;Sweden;c
+5927;N 7;The Quark;Sweden;c
+5933;N 8;The Quark;Sweden;c
+5946;NB 1;The Quark;Sweden;c
+5948;NB 3;The Quark;Sweden;c
+5950;NB 5;The Quark;Sweden;c
+5952;NB 7;The Quark;Sweden;c
+5953;NB 8;The Quark;Sweden;c
+5958;NK 3;The Quark;Sweden;Norra_Kvarken
+5959;NK 4;The Quark;Sweden;Norra_Kvarken
+5960;NK 5;The Quark;Sweden;Norra_Kvarken
+5961;NK 6;The Quark;Sweden;Norra_Kvarken
+5962;NK 7;The Quark;Sweden;Norra_Kvarken
+11303;H 22;The Quark;Sweden;c
+11311;HO 1;The Quark;Sweden;c
+11312;HO 17;The Quark;Sweden;c
+11313;HO 2;The Quark;Sweden;c
+11314;HO 27;The Quark;Sweden;c
+11315;HO 28;The Quark;Sweden;c
+11316;HO 4;The Quark;Sweden;c
+11317;HO 7;The Quark;Sweden;c
+11318;HO 8;The Quark;Sweden;c
+11319;HO 9;The Quark;Sweden;c
+11849;NK 10;The Quark;Sweden;Norra_Kvarken
+11850;NK 11;The Quark;Sweden;Norra_Kvarken
+11851;NK 12;The Quark;Sweden;Norra_Kvarken
+12050;NK 8S;The Quark;Sweden;Norra_Kvarken
+12051;NK 9S;The Quark;Sweden;Norra_Kvarken
+5792;HAE 12;Western Gotland Basin;Sweden;HAE
+5793;HAE 13;Western Gotland Basin;Sweden;HAE
+5806;HK 7;Western Gotland Basin;Sweden;HAE
+6017;REF M1V1;Western Gotland Basin;Sweden;c
+6142;VAE 10;Western Gotland Basin;Sweden;VAE
+6144;VAE 18;Western Gotland Basin;Sweden;VAE
+6148;VAE 4b;Western Gotland Basin;Sweden;VAE
+6149;VAE 7;Western Gotland Basin;Sweden;VAE
+6150;VAE 9;Western Gotland Basin;Sweden;VAE
+6188;4009;Western Gotland Basin;Sweden;HAE
+6194;6004;Western Gotland Basin;Sweden;c
+6195;6019;Western Gotland Basin;Sweden;c
+6196;6020;Western Gotland Basin;Sweden;c
+6197;6022;Western Gotland Basin;Sweden;c
+6198;6025;Western Gotland Basin;Sweden;c
+6234;B1;Western Gotland Basin;Sweden;c
+11296;6006 SV LANDSORT;Western Gotland Basin;Sweden;c
+11297;6011 TRUTKLUBBEN;Western Gotland Basin;Sweden;c
+11298;6014 OXELTANDEN;Western Gotland Basin;Sweden;c
+11299;6016 V LANDSORT;Western Gotland Basin;Sweden;c
+11300;6023 SPELMAN;Western Gotland Basin;Sweden;c
+11305;HAE 24;Western Gotland Basin;Sweden;HAE
+11306;HAE 25;Western Gotland Basin;Sweden;HAE
+11307;HAE 26;Western Gotland Basin;Sweden;HAE
+11308;HAE 27;Western Gotland Basin;Sweden;HAE
+11309;HAE 28;Western Gotland Basin;Sweden;HAE
+11310;HAE 29;Western Gotland Basin;Sweden;HAE
+11320;K9M;Western Gotland Basin;Sweden;c
+11325;ML3M;Western Gotland Basin;Sweden;c
+11326;ML4M;Western Gotland Basin;Sweden;c
+11327;ML5MS;Western Gotland Basin;Sweden;c
+11328;MYS 1;Western Gotland Basin;Sweden;c
+11329;MYS 2;Western Gotland Basin;Sweden;c
+11330;MYS 3;Western Gotland Basin;Sweden;c
+11331;MYS 4;Western Gotland Basin;Sweden;c
+11332;MYS 5;Western Gotland Basin;Sweden;c
+11333;MYS 6;Western Gotland Basin;Sweden;c
+11334;MYS 7;Western Gotland Basin;Sweden;c
+11335;MYS 93;Western Gotland Basin;Sweden;c
+11336;MYS 94;Western Gotland Basin;Sweden;c
+11337;MYS 95;Western Gotland Basin;Sweden;c
+11341;OLE 1;Western Gotland Basin;Sweden;OLE
+11342;OLE 10;Western Gotland Basin;Sweden;OLE
+11343;OLE 2;Western Gotland Basin;Sweden;OLE
+11344;OLE 3;Western Gotland Basin;Sweden;OLE
+11345;OLE 4;Western Gotland Basin;Sweden;OLE
+11346;OLE 5;Western Gotland Basin;Sweden;OLE
+11347;OLE 6;Western Gotland Basin;Sweden;OLE
+11348;OLE 7;Western Gotland Basin;Sweden;OLE
+11349;OLE 8;Western Gotland Basin;Sweden;OLE
+11350;OLE 9;Western Gotland Basin;Sweden;OLE
+11358;VAE 21;Western Gotland Basin;Sweden;VAE
+11359;VAE 22;Western Gotland Basin;Sweden;VAE
+11360;VAE 24;Western Gotland Basin;Sweden;VAE
+11362;LD10;Western Gotland Basin;Sweden;c
+11363;LD15;Western Gotland Basin;Sweden;c
+11365;LD24;Western Gotland Basin;Sweden;c
+11366;LD25;Western Gotland Basin;Sweden;c
+11367;LD29;Western Gotland Basin;Sweden;c
+11368;LD31;Western Gotland Basin;Sweden;c
+11369;LD6;Western Gotland Basin;Sweden;c
+11370;LD9;Western Gotland Basin;Sweden;c
+11371;ML24;Western Gotland Basin;Sweden;c
+11372;ML25;Western Gotland Basin;Sweden;c
+11373;ML26;Western Gotland Basin;Sweden;c
+11374;ML27;Western Gotland Basin;Sweden;c
+11375;ML28;Western Gotland Basin;Sweden;c
+11532;6001 KÄFTUDDEN;Western Gotland Basin;Sweden;c
+11533;6009 ÖSTERBÅDARNA;Western Gotland Basin;Sweden;c
+11534;6012 S GRÅSKÄR;Western Gotland Basin;Sweden;c
+11535;6017 S SUNDSBÅDARNA;Western Gotland Basin;Sweden;c
+11536;6018 GRÅSKÄR;Western Gotland Basin;Sweden;c
+11537;6021 Ö GALTEN;Western Gotland Basin;Sweden;c
+11539;HK 15B;Western Gotland Basin;Sweden;HAE
+11542;REFM4S4;Western Gotland Basin;Sweden;c
+11550;LD2_Lindödjupet;Western Gotland Basin;Sweden;c
+11836;6024B;Western Gotland Basin;Sweden;c
+11839;6010 FURHOLMARNA;Western Gotland Basin;Sweden;c
+11840;VAE 25;Western Gotland Basin;Sweden;VAE
+11841;VAE 26;Western Gotland Basin;Sweden;VAE
+11842;VAE 27;Western Gotland Basin;Sweden;VAE
+11854;REFM2S2;Western Gotland Basin;Sweden;c
+11855;TA1;Western Gotland Basin;Sweden;c
+11856;TA2;Western Gotland Basin;Sweden;c
+11857;TA3;Western Gotland Basin;Sweden;c
+11858;TA4;Western Gotland Basin;Sweden;c
+1067;F64;Åland Sea;Finland;AH_FIN1
+1109;F69;Åland Sea;Finland;AH_FIN2
+5829;KAS 1;Åland Sea;Sweden;c
+5990;R 1-1;Åland Sea;Sweden;c
+5993;R 1-14;Åland Sea;Sweden;c
+5994;R 1-15;Åland Sea;Sweden;c
+5996;R 1-2;Åland Sea;Sweden;c
+5997;R 1-3;Åland Sea;Sweden;c
+5998;R 1-5;Åland Sea;Sweden;c
+6215;AH 1;Åland Sea;Sweden;AH_SWE
+6216;AH 10;Åland Sea;Sweden;AH_SWE
+6217;AH 2;Åland Sea;Sweden;AH_SWE
+6218;AH 3;Åland Sea;Sweden;AH_SWE
+6219;AH 4;Åland Sea;Sweden;AH_SWE
+6220;AH 5;Åland Sea;Sweden;AH_SWE
+6221;AH 6;Åland Sea;Sweden;AH_SWE
+6222;AH 7;Åland Sea;Sweden;AH_SWE
+6223;AH 8;Åland Sea;Sweden;AH_SWE
+6224;AH 9;Åland Sea;Sweden;AH_SWE
