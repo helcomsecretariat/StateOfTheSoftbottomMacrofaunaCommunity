@@ -1,10 +1,10 @@
 #########################################################################################
 ###   HELCOM Core indicator "State of the softbottom macrofauna community" R-script   ###
-###   for sub-basin assessments based on BQI							  ###
-###														  ###
+###   for sub-basin assessments based on BQI					      ###
+###										      ###
 ###   Developed within the "Baltic Data Flows" project, funded by the EU Innovation   ###
-###   and Networks Agency (INEA) via CEF funding instrument.				  ###
-###   Project information: https://balticdataflows.helcom.fi/				  ###
+###   and Networks Agency (INEA) via CEF funding instrument.			      ###
+###   Project information: https://balticdataflows.helcom.fi/			      ###
 #########################################################################################
 
 rm(list=ls())
@@ -97,7 +97,7 @@ colnames(AssessmentData)[20] <- "normBQI"
 
 for (i in 1:nrow(AssessmentData)) {
 	if (AssessmentData[i,6] == "Bothnian Bay" || AssessmentData[i,6] == "The Quark" || 
-			AssessmentData[i,6] == "Bothnian Sea" || AssessmentData[i,6] == "Åland Sea" ||
+			AssessmentData[i,6] == "Bothnian Sea" || AssessmentData[i,6] == "Ã…land Sea" ||
 			AssessmentData[i,6] == "Northern Baltic Proper" || 
 			AssessmentData[i,6] == "Western Gotland Basin") {
 		AssessmentData[i,21] <- AssessmentData[i,4]
