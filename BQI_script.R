@@ -62,12 +62,12 @@ colnames(Data_BQI)[27] <- "VALUE01"
 
 S_list <- 0
 
-Data_BQI <- Data_BQI[!(is.na(Data_BQI$WADEP)), ]   # Remove samples for which no depth is reported
-#Data_BQI <- Data_BQI[!(is.na(Data_BQI$MESHS)), ]  # Remove samples for which no mesh size is reported
-Data_BQI[Data_BQI$CNTRY == "Estonia", 20] <- 250         # replace missing sieve size with 250 for Estonia (used as an intermediate solution awaiting confirmation of sieve size)
-Data_BQI[Data_BQI$CNTRY == "Sweden", 20] <- 1000         # replace missing sieve size with 1000 for Sweden (used as an intermediate solution awaiting confirmation of sieve size)
-Data_BQI[Data_BQI$CNTRY == "Poland", 20] <- 1000         # replace missing sieve size with 1000 for Poland (used as an intermediate solution awaiting confirmation of sieve size)
-Data_BQI[Data_BQI$CNTRY == "Germany", 20] <- 1000         # replace missing sieve size with 1000 for Germany (used as an intermediate solution awaiting confirmation of sieve size)
+Data_BQI <- Data_BQI[!(is.na(Data_BQI$WADEP)), ]   	# Remove samples for which no depth is reported
+#Data_BQI <- Data_BQI[!(is.na(Data_BQI$MESHS)), ]  	# Remove samples for which no mesh size is reported
+Data_BQI[Data_BQI$CNTRY == "Estonia", 20] <- 250        # replace missing sieve size with 250 for Estonia (used as an intermediate solution awaiting confirmation of sieve size)
+Data_BQI[Data_BQI$CNTRY == "Sweden", 20] <- 1000        # replace missing sieve size with 1000 for Sweden (used as an intermediate solution awaiting confirmation of sieve size)
+Data_BQI[Data_BQI$CNTRY == "Poland", 20] <- 1000        # replace missing sieve size with 1000 for Poland (used as an intermediate solution awaiting confirmation of sieve size)
+Data_BQI[Data_BQI$CNTRY == "Germany", 20] <- 1000       # replace missing sieve size with 1000 for Germany (used as an intermediate solution awaiting confirmation of sieve size)
 
 for (i in 1:nrow(Data_BQI)){
 if (Data_BQI[i,4] == "Bothnian Sea" |
@@ -202,34 +202,36 @@ ind.station <- as.numeric(data1[species+1,1:stations])
 data11 <- data1[1:species,1:stations, drop=FALSE]
 data11[is.na(data11)] <- 0
 sp.names <- row.names(data11)
-													###1. Variable setting
+
+		#1. Variable setting
 a <- 1
 used.ind <- 0
 S.stat <- 0
 BQI2009 <- 0
 sensitivitylistname <- 0
 
-for (a in 1:stations) {										#########start loop
-													###2. Merge frames
-S.stat[a]<-nrow(subset(data11,data11[,a]>0))
-help.df.station<-data.frame(sp.names,data11[,a])
-ref.list<-sensitivitylist+6
-ref.list
-sensitivitylist
-help.df.ref<-data.frame(SpSensitivity$WoRMS_acc_AphiaID,SpSensitivity[,ref.list])         
-help.df.ref1<-na.omit(help.df.ref)
-kombi.frame<-0
-kombi.frame<-merge(help.df.station,help.df.ref1,by.x=c("sp.names"),by.y=c("SpSensitivity.WoRMS_acc_AphiaID")) 
+for (a in 1:stations) {									##start loop
+		#2. Merge frames
+	S.stat[a]<-nrow(subset(data11,data11[,a]>0))
+	help.df.station<-data.frame(sp.names,data11[,a])
+	ref.list<-sensitivitylist+6
+	ref.list
+	sensitivitylist
+	help.df.ref<-data.frame(SpSensitivity$WoRMS_acc_AphiaID,SpSensitivity[,ref.list])         
+	help.df.ref1<-na.omit(help.df.ref)
+	kombi.frame<-0
+	kombi.frame<-merge(help.df.station,help.df.ref1,by.x=c("sp.names"),by.y=c("SpSensitivity.WoRMS_acc_AphiaID")) 
+		#3. calculation
+	help.column<-0
+	used.ind[a]<-sum(kombi.frame[,2])
+	help.column<-(kombi.frame[,2]/used.ind[a])*kombi.frame[,3]
 
-help.column<-0											###3. calculation
-used.ind[a]<-sum(kombi.frame[,2])
-help.column<-(kombi.frame[,2]/used.ind[a])*kombi.frame[,3]
+	BQI2009[a]<-(sum(help.column)*(log(S.stat[a]+1,10))*(ind.station[a]/(ind.station[a]+5)))
+	sensitivitylistname[a]<-names(SpSensitivity[ref.list])
+}												##End loop
 
-BQI2009[a]<-(sum(help.column)*(log(S.stat[a]+1,10))*(ind.station[a]/(ind.station[a]+5)))
-													###4. Result
-sensitivitylistname[a]<-names(SpSensitivity[ref.list])
-}													############End loop
-
+## Collect results
+BQI2009[is.nan(BQI2009)] <- 0		
 result.EIG <- data.frame(SampleID,S.stat,ind.station,BQI2009,sensitivitylistname)
 
 ## Combine results from the EIGs
@@ -254,7 +256,7 @@ for (i in 1:nrow(result.BQI)){
 	result.BQI[i,14] <- Data_BQI[sample_match[i],2]
 	result.BQI[i,15] <- Data_BQI[sample_match[i],3]
 	result.BQI[i,16] <- Data_BQI[sample_match[i],17]
-	}
+}
 colnames(result.BQI)[6] <- "HELCOM_subbasin"
 colnames(result.BQI)[7] <- "HELCOM_L4"
 colnames(result.BQI)[8] <- "CNTRY"
@@ -269,6 +271,7 @@ colnames(result.BQI)[16] <- "FNFLA"
 
 ## Add samples with no animals
 # rename EIG
+EIGcolumn <- 0
 for (i in 1:nrow(no_animals)) {
 	if (no_animals[i,28] == 20)
 		{EIGcolumn[i] <- "ES-SWE"}
